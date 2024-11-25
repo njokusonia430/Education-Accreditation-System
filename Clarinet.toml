@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/course-completion.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.credit-transfer_]
+path = 'contracts/credit-transfer_.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
