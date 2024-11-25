@@ -1,0 +1,24 @@
+[project]
+name = 'Education-Accreditation-System'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.course-completion]
+path = 'contracts/course-completion.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.credit-transfer_]
+path = 'contracts/credit-transfer_.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
